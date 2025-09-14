@@ -50,7 +50,7 @@ const CTA = () => {
             className="text-3xl md:text-5xl lg:text-6xl font-heading font-medium !leading-snug"
           >
             Automate your <br />{" "}
-            <span className="font-subheading italic">freelancer workflows</span>
+            <span className="font-subheading italic">Client workflows</span>
           </motion.h2>
 
           <motion.p
@@ -66,13 +66,8 @@ const CTA = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
-            <Link href="#pricing">
+            <Link href="/inquiry">
               <Button size="lg">Get Started</Button>
-            </Link>
-            <Link href="/demo">
-              <Button size="lg" variant="outline">
-                Book a Demo
-              </Button>
             </Link>
           </div>
         </div>
