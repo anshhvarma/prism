@@ -1,10 +1,8 @@
 "use client";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
   CheckCircle,
   Zap,
-  ArrowRight,
   Star,
   Trophy,
   Target,
@@ -128,30 +126,6 @@ export default function SummaryDemo() {
                   <span className="text-gray-400 text-sm">{step}</span>
                 </div>
               ))}
-            </div>
-
-            <div className="p-8 bg-gradient-to-r from-blue-600 to-teal-500 rounded-lg text-white">
-              <h3 className="text-2xl font-bold mb-4">
-                Ready to Transform Your Freelance Business?
-              </h3>
-              <p className="text-xl mb-6 opacity-90">
-                Join thousands of freelancers who&apos;ve automated their way to
-                success
-              </p>
-
-              <div className="flex gap-4 justify-center">
-                <Button
-                  variant="white"
-                  size="lg"
-                  className="bg-white text-primary hover:bg-white/90"
-                  asChild
-                >
-                  <Link href="/">
-                    Start Your Journey
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-              </div>
             </div>
           </div>
         </div>
